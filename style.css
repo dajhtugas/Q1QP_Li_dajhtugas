@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Rhodium+Libre&family=Roboto+Condensed&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.header{
+    width: 100w;
+    height: 8vh;
+    background: #011D81;
+}
+
+.header h1{
+    font-family: 'Rhodium Libre';
+    float: right;
+    color: white;
+}
+
+.footer{
+    height: 8vh;
+    width: 100w;
+    background: #011D81;
+}
+
+.sidebar{
+    border: 1px solid black;
+    width:8vw;
+    height:83.7vh;
+    float: left;
+    background-color:#88C2F7; ;
+}
+
+
+.main{
+    border: 1px solid black;
+    width: 100w;
+    height: 83.8vh; 
+    background: #17D7A9;
+}
+
+
+
+.main h1{
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+.main h2{
+    font-family: 'Roboto Condensed';
+    text-align: center;
+}
+
+.main h3{
+    font-family: 'Roboto Condensed';
+    text-align: center;
+}
+
+.links{
+    margin-top: -11px;
+    margin-left: 2px;
+    margin-right: 2px;
+    float: right;
+    font-family: 'Roboto Condensed';
+    text-transform: uppercase;
+    opacity: 0.7;
+    transition: .4s;
+    
+}
+
+.socmedlinks{
+    display: inline;
+    margin-left: 30px;
+}
+
+.main a{
+
+    text-align: center;
+    padding: 1em;
+    background-color: rgb(255, 255, 255);
+    margin-top:1em;
+    font-family: 'Roboto Condensed';
+    display: inline-block;
+    margin-left: 622.5px;
+    
+    
+}
+
+.footer h1{
+    font-family: 'Roboto Condensed';
+    display: inline;
+    color: white;
+}
+
+.footer h1 span {
+    font-family: 'Roboto Condensed';
+    float: right;
+    color: white;
+}
+
+.header img{
+    float:left;
+}
+
+.abtme p{
+    display: inline-block;
+    font-family: 'Roboto Condensed';
+}
+
+.abtme img{
+    display: inline-block;
+    margin-left: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+
+.abtus p{
+    display: inline-block;
+    font-family: 'Roboto Condensed';
+
+}
+
+.abtus img{
+    display: inline-block;
+    margin-left: 10px;
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    float: left;
+
+}
+
+.graph1 img{
+    width: 275px;
+    height: 200px;
+    float: left;
+}
+
+.graph1 p{
+    display: inline;
+    text-align: center;
+    font-family: 'Roboto Condensed';
+}
+
+.graph2 img{
+    width: 275px;
+    height: 200px;
+    display: inline-block;
+    margin-top: 100px;
+    float: right;
+}
+
+.graph2 p{
+    display: inline;
+    font-family: 'Roboto Condensed';
+}
+
+.conclusion p{
+    text-align: justify;
+    display: inline-block;
+    margin-top: 100px;
+    font-family: 'Roboto Condensed';
+}
