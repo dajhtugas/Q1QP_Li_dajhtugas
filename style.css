@@ -106,7 +106,7 @@
     font-family: 'Roboto Condensed';
 }
 
-.abtme img{
+.abtme img{/*me*/
     display: inline-block;
     margin-left: 10px;
     width: 200px;
@@ -120,17 +120,16 @@
 
 }
 
-.abtus img{
+.abtus img{/*team*/
     display: inline-block;
     margin-left: 10px;
     width: 200px;
     height: 200px;
-    margin-top: 50px;
     float: left;
 
 }
 
-.graph1 img{
+.graph1 img{/*topgraph*/
     width: 275px;
     height: 200px;
     float: left;
@@ -142,7 +141,7 @@
     font-family: 'Roboto Condensed';
 }
 
-.graph2 img{
+.graph2 img{/*bottomgraph*/
     width: 275px;
     height: 200px;
     display: inline-block;
@@ -151,13 +150,28 @@
 }
 
 .graph2 p{
-    display: inline;
+    display: inline-block;
     font-family: 'Roboto Condensed';
 }
 
-.conclusion p{
+.conclusion p{/*basically text*/
     text-align: justify;
     display: inline-block;
     margin-top: 100px;
     font-family: 'Roboto Condensed';
+}
+
+.logo{
+    border: 0vh solid;
+    padding: 0vh;
+    width: 8vh;
+    height: 8vh;
+    border-radius: 50%;
+    float: left;
+    margin-left: 2vh;
+
+
+    background-image: url(images/logo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
